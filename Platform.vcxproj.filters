@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8fc45193-00aa-405d-8445-6f6619d94834}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b7a7aeb7-2adb-4395-b80d-4922bd4efc19}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="CODE">
+      <UniqueIdentifier>{3c1c7cef-d508-4831-99e0-990a98f05245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\src">
+      <UniqueIdentifier>{9ed52f71-8b84-4ab6-8f02-e04daccfce7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\include">
+      <UniqueIdentifier>{74138901-596d-47e5-a327-00b1448813f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\adv">
+      <UniqueIdentifier>{8f3e39ff-055b-4456-86b4-9f4011bd5894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\adv\sqlite">
+      <UniqueIdentifier>{791ebca1-62a6-4df1-a438-e4916ada3992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\adv\algorithms">
+      <UniqueIdentifier>{17f53835-1a47-408f-9b6a-31e4ccb36c82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="adv\sqlite\sqlite3.c">
+      <Filter>CODE\adv\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NotificationCenter.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platform.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\std_string_ext.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TaskThreadPool.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Thread.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\art_calculator_ext.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base64.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ByLog.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ByTime.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ByVfs.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cJSON.c">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CpuID.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EPoll.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IniFile.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io_fd_factory.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io_file_ext.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io_mysql_ext.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io_parse_ext.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io_socket_ext.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io_stream_buffer.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io_stream_mem.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MD5.c">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MemPool.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Msg.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net_http_server.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net_jwt.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="adv\algorithms\AES.cpp">
+      <Filter>CODE\adv\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net_tcp_loop.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net_udp_loop.cpp">
+      <Filter>CODE\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adv\sqlite\sqlite3.h">
+      <Filter>CODE\adv\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform.h">
+      <Filter>CODE\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io_stream_defind.h">
+      <Filter>CODE\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io_stream_mem.h">
+      <Filter>CODE\src</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MsgQue.hpp">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MsgThreadPool.hpp">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net_http_server.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net_jwt.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NotificationCenter.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ObjPool.hpp">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\std_string_ext.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TaskThreadPool.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Thread.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\art_calculator_ext.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Base64.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ByLog.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ByTime.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ByVfs.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cJSON.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CpuID.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EPoll.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IniFile.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io_fd_factory.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io_file_ext.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io_mysql_ext.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io_parse_ext.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io_socket_ext.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io_sqlite_ext.hpp">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io_stream_buffer.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IParse.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IPSock.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MD5.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MemPool.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Msg.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="adv\algorithms\AES.h">
+      <Filter>CODE\adv\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net_tcp_loop.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net_udp_loop.h">
+      <Filter>CODE\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
